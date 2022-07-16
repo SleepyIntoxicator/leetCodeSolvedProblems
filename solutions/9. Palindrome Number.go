@@ -2,18 +2,6 @@ package solutions
 
 import "strconv"
 
-func IsPalindromeString(x int) bool {
-	return isPalindromeString(x)
-}
-
-func IsPalindromeBruteforce(x int) bool {
-	return isPalindromeBruteforce(x)
-}
-
-func IsPalindromeOptimal(x int) bool {
-	return isPalindromeOptimal(x)
-}
-
 func isPalindromeString(x int) bool {
 	strX := strconv.Itoa(x)
 	for i := 0; i < len(strX)/2; i++ {

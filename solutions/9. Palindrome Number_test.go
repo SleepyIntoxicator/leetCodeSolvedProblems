@@ -7,10 +7,10 @@ import (
 )
 
 func TestIsPalindrome(t *testing.T) {
-	fnTestNames := []string{
-		"isPalindromeString",
-		"isPalindromeBruteforce",
-		"isPalindromeOptimal",
+	fnTestNames := map[string]func(int) bool{
+		"isPalindromeString":     isPalindromeString,
+		"isPalindromeBruteforce": isPalindromeBruteforce,
+		"isPalindromeOptimal":    isPalindromeOptimal,
 	}
 
 	type testCase struct {
@@ -46,19 +46,11 @@ func TestIsPalindrome(t *testing.T) {
 		},
 	}
 
-	for _, fnName := range fnTestNames {
+	for fnName, isPalindrome := range fnTestNames {
 		for _, tc := range tcs {
-			t.Run(fmt.Sprintf("%s/%s", fnName, tc.name), func(t *testing.T) {
-				var out bool
+			t.Run(fmt.Sprintf("9. PalindromeNumber\\%s\\%s", fnName, tc.name), func(t *testing.T) {
 
-				switch fnName {
-				case "isPalindromeString":
-					out = IsPalindromeString(tc.in)
-				case "isPalindromeBruteforce":
-					out = IsPalindromeBruteforce(tc.in)
-				case "isPalindromeOptimal":
-					out = IsPalindromeOptimal(tc.in)
-				}
+				out := isPalindrome(tc.in)
 
 				assert.Equal(t, tc.expectedOut, out)
 			})
