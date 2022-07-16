@@ -1,7 +1,8 @@
 # LeetCode Solved Problems
 
-| Status | Number | Name                  | Link |
-|--------|--------|-----------------------|------|
-| [x]    | 9      | Palindrome Number     |      |
-| [x]    | 14     | Longest Common Prefix |      |
-| [x]    | 704    | Binary Search         |      |
+| Status | Number | Name                  | Level | Link |
+|--------|--------|-----------------------|-------|------|
+| [v]    | 9      | Palindrome Number     | Easy  |      |
+| [v]    | 14     | Longest Common Prefix | Easy  |      |
+| [v]    | 704    | Binary Search         | Easy  |      |
+| [v]    | 217    | Contains Duplicate    | Easy  |      |
