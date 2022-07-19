@@ -38,7 +38,7 @@ func TestContainsDuplicate(t *testing.T) {
 
 	for fnName, containsDuplicate := range fnNames {
 		for _, tc := range tcs {
-			t.Run(fmt.Sprintf("ContainsDuplicate\\%s\\%s", fnName, tc.Name), func(t *testing.T) {
+			t.Run(fmt.Sprintf("ContainsDuplicate/%s/%s", fnName, tc.Name), func(t *testing.T) {
 
 				out := containsDuplicate(tc.Nums)
 

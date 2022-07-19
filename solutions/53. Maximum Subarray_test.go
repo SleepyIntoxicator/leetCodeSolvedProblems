@@ -63,7 +63,7 @@ func TestMaxSubArray(t *testing.T) {
 
 	for fnName, maxSubArray := range fnNames {
 		for _, tc := range tcs {
-			t.Run(fmt.Sprintf("%s\\%s", fnName, tc.Name), func(t *testing.T) {
+			t.Run(fmt.Sprintf("%s/%s", fnName, tc.Name), func(t *testing.T) {
 				out := maxSubArray(tc.Nums)
 
 				assert.Equal(t, tc.Expected, out)

@@ -62,7 +62,7 @@ func TestLongestCommonPrefix(t *testing.T) {
 	}
 
 	for _, tc := range tcs {
-		t.Run("14. LongestCommonPrefix\\"+tc.name, func(t *testing.T) {
+		t.Run("14. LongestCommonPrefix/"+tc.name, func(t *testing.T) {
 			out := LongestCommonPrefix(tc.in)
 
 			assert.Equal(t, tc.expectedOut, out)

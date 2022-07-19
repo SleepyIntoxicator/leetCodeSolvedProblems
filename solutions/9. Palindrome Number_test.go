@@ -48,7 +48,7 @@ func TestIsPalindrome(t *testing.T) {
 
 	for fnName, isPalindrome := range fnTestNames {
 		for _, tc := range tcs {
-			t.Run(fmt.Sprintf("9. PalindromeNumber\\%s\\%s", fnName, tc.name), func(t *testing.T) {
+			t.Run(fmt.Sprintf("9. PalindromeNumber/%s/%s", fnName, tc.name), func(t *testing.T) {
 
 				out := isPalindrome(tc.in)
 

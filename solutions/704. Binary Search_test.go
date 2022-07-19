@@ -41,7 +41,7 @@ func TestSearch(t *testing.T) {
 	}
 
 	for _, tc := range tcs {
-		t.Run("704. BinarySearch\\"+tc.Name, func(t *testing.T) {
+		t.Run("704. BinarySearch/"+tc.Name, func(t *testing.T) {
 			out := Search(tc.Nums, tc.Target)
 
 			assert.Equal(t, tc.Expected, out)
