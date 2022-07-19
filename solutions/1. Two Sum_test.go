@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestMultipleFunc(t *testing.T) {
+func TestTwoSum(t *testing.T) {
 	fnNames := map[string]func(nums []int, target int) []int{
 		"TwoSumNew":        twoSumNew,
 		"TwoSumOld":        twoSumOld,
