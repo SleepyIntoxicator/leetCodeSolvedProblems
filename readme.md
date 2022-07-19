@@ -7,3 +7,4 @@
 | [v]    | 704    | Binary Search         | Easy   |      |
 | [v]    | 217    | Contains Duplicate    | Easy   |      |
 | [v]    | 53     | Maximum Subarray      | Medium |      |
+| [v]    | 88     | Merge Sorted Array.go | Easy   |      |
