@@ -10,4 +10,4 @@
 | [v]    | 53     | [Maximum Subarray](./solutions/53.%20Maximum%20Subarray.go)                                           | Medium |
 | [v]    | 88     | [Merge Sorted Array](./solutions/88.%20Merge%20Sorted%20Array.go)                                     | Easy   |
 | [v]    | 350    | [Intersection of Two Arrays II](./solutions/350.%20Intersection%20of%20Two%20Arrays%20II.go)          | Easy   |
-| [x]    | 121    | [Best Time to Buy and Sell Stock](./solutions/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.go)  | Easy   |
+| [v]    | 121    | [Best Time to Buy and Sell Stock](./solutions/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.go)  | Easy   |
