@@ -18,7 +18,7 @@
 | [v]    | 387    | [First Unique Character in a String](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.go) | Easy   |
 | [v]    | 383    | [Ransom Note](./solutions/383.%20Ransom%20Note.go)                                                       | Easy   |
 | [v]    | 242    | [Valid Anagram](./solutions/242.%20Valid%20Anagram.go)                                                   | Easy   |
-| [t]    | 141    | [Linked List Cycle](./solutions/141.%20Linked%20List%20Cycle.go)                                         | Easy   |
+| [v]    | 141    | [Linked List Cycle](./solutions/141.%20Linked%20List%20Cycle.go)                                         | Easy   |
 
 Status:
 - 
