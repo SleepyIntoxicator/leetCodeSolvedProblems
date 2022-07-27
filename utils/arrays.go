@@ -3,9 +3,10 @@ package utils
 import (
 	"bytes"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"reflect"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 // AssertEqualLists asserts that the specified expected(array, slice, string...) is equal to specified

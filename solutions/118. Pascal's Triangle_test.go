@@ -1,8 +1,9 @@
 package solutions
 
 import (
-	"leetCodeSolvedProblems/utils"
 	"testing"
+
+	"leetCodeSolvedProblems/utils"
 )
 
 func TestPascalsTriangle(t *testing.T) {

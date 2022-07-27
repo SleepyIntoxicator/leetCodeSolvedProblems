@@ -1,8 +1,9 @@
 package solutions
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestLongestCommonPrefix(t *testing.T) {

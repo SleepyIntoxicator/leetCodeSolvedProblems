@@ -2,8 +2,9 @@ package solutions
 
 import (
 	"fmt"
-	"leetCodeSolvedProblems/utils"
 	"testing"
+
+	"leetCodeSolvedProblems/utils"
 )
 
 func TestMerge(t *testing.T) {
