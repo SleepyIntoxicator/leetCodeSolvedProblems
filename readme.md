@@ -13,6 +13,7 @@
 | [v]    | 121    | [Best Time to Buy and Sell Stock](./solutions/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.go) | Easy   |
 | [v]    | 566    | [Reshape the Matrix](./solutions/566.%20Reshape%20the%20Matrix.go)                                   | Easy   |
 | [v]    | 118    | [Pascal's Triangle](./solutions/118.%20Pascal's%20Triangle.go)                                       | Easy   |
+| [r]    | 36     | [Valid Sudoku](./solutions/36.%20Valid%20Sudoku.go)                                                  | Medium |
 
 Status:
 - 
