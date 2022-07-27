@@ -14,6 +14,7 @@
 | [v]    | 566    | [Reshape the Matrix](./solutions/566.%20Reshape%20the%20Matrix.go)                                   | Easy   |
 | [v]    | 118    | [Pascal's Triangle](./solutions/118.%20Pascal's%20Triangle.go)                                       | Easy   |
 | [r]    | 36     | [Valid Sudoku](./solutions/36.%20Valid%20Sudoku.go)                                                  | Medium |
+| [v]    | 74     | [Search a 2D Matrix](./solutions/74.%20Search%20a%202D%20Matrix.go)                                  | Medium |
 
 Status:
 - 
