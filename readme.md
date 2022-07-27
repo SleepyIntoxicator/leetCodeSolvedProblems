@@ -17,6 +17,7 @@
 | [v]    | 74     | [Search a 2D Matrix](./solutions/74.%20Search%20a%202D%20Matrix.go)                                      | Medium |
 | [v]    | 387    | [First Unique Character in a String](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.go) | Easy   |
 | [v]    | 383    | [Ransom Note](./solutions/383.%20Ransom%20Note.go)                                                       | Easy   |
+| [v]    | 242    | [Valid Anagram](./solutions/242.%20Valid%20Anagram.go)                                                   | Easy   |
 
 Status:
 - 
