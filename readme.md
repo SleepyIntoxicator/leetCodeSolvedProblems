@@ -19,6 +19,7 @@
 | [v]    | 383    | [Ransom Note](./solutions/383.%20Ransom%20Note.go)                                                       | Easy   |
 | [v]    | 242    | [Valid Anagram](./solutions/242.%20Valid%20Anagram.go)                                                   | Easy   |
 | [v]    | 141    | [Linked List Cycle](./solutions/141.%20Linked%20List%20Cycle.go)                                         | Easy   |
+| [v]    | 21     | [Merge Two Sorted Lists](./solutions/21.%20Merge%20Two%20Sorted%20Lists.go)                              | Easy   |
 
 Status:
 - 
