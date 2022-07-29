@@ -21,6 +21,7 @@
 | [v]    | 141    | [Linked List Cycle](./solutions/141.%20Linked%20List%20Cycle.go)                                         | Easy   |
 | [v]    | 21     | [Merge Two Sorted Lists](./solutions/21.%20Merge%20Two%20Sorted%20Lists.go)                              | Easy   |
 | [v]    | 203    | [Remove Linked List Elements](./solutions/203.%20Remove%20Linked%20List%20Elements.go)                   | Easy   |
+| [r]    | 206    | [Reverse Linked List](./solutions/206.%20Reverse%20Linked%20List.go)                                     | Easy   |
 
 Status:
 - 
