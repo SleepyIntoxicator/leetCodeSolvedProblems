@@ -22,6 +22,7 @@
 | [v]    | 21     | [Merge Two Sorted Lists](./solutions/21.%20Merge%20Two%20Sorted%20Lists.go)                              | Easy   |
 | [v]    | 203    | [Remove Linked List Elements](./solutions/203.%20Remove%20Linked%20List%20Elements.go)                   | Easy   |
 | [r]    | 206    | [Reverse Linked List](./solutions/206.%20Reverse%20Linked%20List.go)                                     | Easy   |
+| [r]    | 83     | [Remove Duplicates from Sorted List](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.go)    | Easy   |
 
 Status:
 - 
