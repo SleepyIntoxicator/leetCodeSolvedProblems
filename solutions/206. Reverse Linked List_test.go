@@ -29,14 +29,14 @@ func TestReverseList(t *testing.T) {
 			Expected: []int{5, 4, 3, 2, 1},
 		},
 		{
-			Name:     "3_leetCode",
-			Src:      []int{1, 2},
-			Expected: []int{2, 1},
-		},
-		{
 			Name:     "2_leetCode",
 			Src:      []int{},
 			Expected: []int{},
+		},
+		{
+			Name:     "3_leetCode",
+			Src:      []int{1, 2},
+			Expected: []int{2, 1},
 		},
 	}
 
@@ -50,6 +50,11 @@ func TestReverseList(t *testing.T) {
 				out := LinkedListToSliceInt(fn(tc.Head))
 
 				utils.AssertEqualLists(t, tc.Expected, out)
+
+				// For tests that use source lists for changes
+				for i := range tcs {
+					tcs[i].Head = SliceToLinkedListInt(tcs[i].Src)
+				}
 			})
 		}
 	}
