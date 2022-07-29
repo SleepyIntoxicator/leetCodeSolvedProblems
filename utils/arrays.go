@@ -39,7 +39,7 @@ func AssertEqualLists(t *testing.T, expected, actual interface{}) bool {
 		msg.WriteString("elements differ")
 		msg.WriteString(fmt.Sprintf("\nexpected:\t%v", aValue))
 		msg.WriteString(fmt.Sprintf("\nactual:\t\t%v", bValue))
-		assert.Fail(t, msg.String(), nil)
+		assert.Fail(t, msg.String())
 		return false
 	}
 
