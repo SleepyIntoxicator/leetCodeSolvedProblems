@@ -26,6 +26,7 @@
 | [v]    | 20     | [Valid Parentheses](./solutions/20.%20Valid%20Parentheses.go)                                            | Easy   |
 | [t]    | 232    | [Implement Queue using Stacks](./solutions/232.%20Implement%20Queue%20using%20Stacks.go)                 | Easy   |
 | [v]    | 144    | [Binary Tree Preorder Traversal](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.go)             | Easy   |
+| [v]    | 94     | [Binary Tree Inorder Traversal](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.go)                | Easy   |
 
 Status:
 - 
