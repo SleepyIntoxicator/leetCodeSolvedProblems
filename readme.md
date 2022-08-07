@@ -29,6 +29,7 @@
 | [t]    | 94     | [Binary Tree Inorder Traversal](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.go)                | Easy   |
 | [t]    | 145    | [Binary Tree Postorder Traversal](./solutions/145.%20Binary%20Tree%20Postorder%20Traversal.go)           | Easy   |
 | [t]    | 102    | [Binary Tree Level Order Traversal](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.go)     | Medium |
+| [t]    | 104    | [Maximum Depth of Binary Tree](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.go)               | Easy   |
 
 Status:
 - 
