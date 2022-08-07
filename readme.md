@@ -25,9 +25,10 @@
 | [r]    | 83     | [Remove Duplicates from Sorted List](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.go)    | Easy   |
 | [v]    | 20     | [Valid Parentheses](./solutions/20.%20Valid%20Parentheses.go)                                            | Easy   |
 | [t]    | 232    | [Implement Queue using Stacks](./solutions/232.%20Implement%20Queue%20using%20Stacks.go)                 | Easy   |
-| [v]    | 144    | [Binary Tree Preorder Traversal](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.go)             | Easy   |
-| [v]    | 94     | [Binary Tree Inorder Traversal](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.go)                | Easy   |
-| [v]    | 145    | [Binary Tree Postorder Traversal](./solutions/145.%20Binary%20Tree%20Postorder%20Traversal.go)           | Easy   |
+| [t]    | 144    | [Binary Tree Preorder Traversal](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.go)             | Easy   |
+| [t]    | 94     | [Binary Tree Inorder Traversal](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.go)                | Easy   |
+| [t]    | 145    | [Binary Tree Postorder Traversal](./solutions/145.%20Binary%20Tree%20Postorder%20Traversal.go)           | Easy   |
+| [t]    | 102    | [Binary Tree Level Order Traversal](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.go)     | Medium |
 
 Status:
 - 
