@@ -27,6 +27,7 @@
 | [t]    | 232    | [Implement Queue using Stacks](./solutions/232.%20Implement%20Queue%20using%20Stacks.go)                 | Easy   |
 | [v]    | 144    | [Binary Tree Preorder Traversal](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.go)             | Easy   |
 | [v]    | 94     | [Binary Tree Inorder Traversal](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.go)                | Easy   |
+| [v]    | 145    | [Binary Tree Postorder Traversal](./solutions/145.%20Binary%20Tree%20Postorder%20Traversal.go)           | Easy   |
 
 Status:
 - 
