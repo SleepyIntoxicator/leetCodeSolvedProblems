@@ -32,6 +32,7 @@
 | [t]    | 104    | [Maximum Depth of Binary Tree](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.go)               | Easy   |
 | [v]    | 101    | [Symmetric Tree](./solutions/101.%20Symmetric%20Tree.go)                                                 | Easy   |
 | [r]    | 112    | [Path Sum](./solutions/112.%20Path%20Sum.go)                                                             | Easy   |
+| [v]    | 226    | [Invert Binary Tree](./solutions/226.%20Invert%20Binary%20Tree.go)                                       | Easy   |
 
 Status:
 - 
