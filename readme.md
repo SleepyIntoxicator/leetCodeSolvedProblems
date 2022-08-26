@@ -34,6 +34,7 @@
 | [r]    | 112    | [Path Sum](./solutions/112.%20Path%20Sum.go)                                                             | Easy   |
 | [v]    | 226    | [Invert Binary Tree](./solutions/226.%20Invert%20Binary%20Tree.go)                                       | Easy   |
 | [v]    | 700    | [Search in a Binary Search Tree](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.go)         | Easy   |
+| [r]    | 701    | [Insert into a Binary Search Tree](./solutions/701.%20Insert%20into%20a%20Binary%20Search%20Tree.go)     | Medium |
 
 Status:
 - 
