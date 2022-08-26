@@ -31,6 +31,7 @@
 | [t]    | 102    | [Binary Tree Level Order Traversal](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.go)     | Medium |
 | [t]    | 104    | [Maximum Depth of Binary Tree](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.go)               | Easy   |
 | [t]    | 101    | [Symmetric Tree](./solutions/101.%20Symmetric%20Tree.go)                                                 | Easy   |
+| [r]    | 112    | [Path Sum](./solutions/112.%20Path%20Sum.go)                                                             | Easy   |
 
 Status:
 - 
