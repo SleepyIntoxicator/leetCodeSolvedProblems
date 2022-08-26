@@ -17,24 +17,21 @@ func isSymmetric(root *TreeNode) bool {
 
 	for len(queue) > 0 {
 		itemsOnLevel := len(queue)
-		if itemsOnLevel != 1 && (itemsOnLevel%2 == 1) {
-			return false
+		for _, v := range queue {
+			if v.Left != nil {
+				queue = append(queue, v.Left)
+			}
+			if v.Right != nil {
+				queue = append(queue, v.Right)
+			}
 		}
 		j := itemsOnLevel - 1
-		for i := 0; i < (itemsOnLevel / 2); i++ {
-
+		for i := 0; i < (itemsOnLevel/2)+1; i++ {
 			if !((queue[i].Left != nil && queue[j].Right != nil) || (queue[i].Left == nil && queue[j].Right == nil)) {
 				return false
 			}
 			if queue[i].Val != queue[j].Val {
 				return false
-			}
-
-			if queue[i].Left != nil {
-				queue = append(queue, queue[i].Left)
-			}
-			if queue[i].Right != nil {
-				queue = append(queue, queue[i].Right)
 			}
 			j--
 		}
@@ -45,47 +42,65 @@ func isSymmetric(root *TreeNode) bool {
 	return true
 }
 
-func isSymmetricD(root *TreeNode) bool {
+// Used inverted equivalent or XOR formula ¬((¬A∧¬B)∨(A∧B)) or (A∨B)∧¬(A∧B)
+// left right  out
+//
+//	nil  nil  false
+//	nil   v   true
+//	 v   nil  true
+//	 v    v   false
+func isSymmetricDFS(root *TreeNode) bool {
 	if root == nil {
 		return false
 	}
 
-	var sl, sr []*TreeNode
-	cl, cr := root.Left, root.Right
+	var stackLeft, stackRight []*TreeNode
+	currLeft, currRight := root.Left, root.Right
 
-	if !((cl != nil && cr != nil) || (cl == nil && cr == nil)) {
+	if !((currLeft != nil && currRight != nil) || (currLeft == nil && currRight == nil)) {
 		return false
 	}
 
-	for (len(sl) > 0 && len(sr) > 0) && (cl != nil && cr != nil) {
-		for cl != nil && cr != nil {
-			if cl.Val != cr.Val {
+	for (len(stackLeft) > 0 && len(stackRight) > 0) || (currLeft != nil || currRight != nil) {
+		for currLeft != nil && currRight != nil {
+			if currLeft.Val != currRight.Val {
 				return false
 			}
-			sl = append(sl, cl)
-			sr = append(sr, cr)
-			cl = cl.Left
-			cr = cr.Right
+			stackLeft = append(stackLeft, currLeft)
+			stackRight = append(stackRight, currRight)
+			currLeft = currLeft.Left
+			currRight = currRight.Right
 		}
-		if (cl == nil || cr == nil) && !(cl == nil && cr == nil) {
-			return false
-		}
-		if len(sl) != len(sr) {
+
+		if (currLeft == nil || currRight == nil) && !(currLeft == nil && currRight == nil) {
 			return false
 		}
 
-		cl = sl[len(sl)-1].Right
-		cr = sr[len(sr)-1].Left
-		sl = sl[:len(sl)-1]
-		sr = sr[:len(sr)-1]
-		if cl.Val != cr.Val {
-			return false
-		}
-	}
-
-	if len(sl) > 0 || len(sr) > 0 {
-		return false
+		currLeft = stackLeft[len(stackLeft)-1].Right
+		currRight = stackRight[len(stackRight)-1].Left
+		stackLeft = stackLeft[:len(stackLeft)-1]
+		stackRight = stackRight[:len(stackRight)-1]
 	}
 
 	return true
+}
+
+func isSymmetricRecursive(root *TreeNode) bool {
+	if root == nil {
+		return false
+	}
+
+	return iSRBFS(root.Left, root.Right)
+}
+
+func iSRBFS(left, right *TreeNode) bool {
+	if left == nil && right == nil {
+		return true
+	}
+
+	if left == nil || right == nil {
+		return false
+	}
+
+	return left.Val == right.Val && iSRBFS(left.Left, right.Right) && iSRBFS(left.Right, right.Left)
 }
