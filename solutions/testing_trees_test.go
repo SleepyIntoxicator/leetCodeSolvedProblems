@@ -22,11 +22,16 @@ func TestStringToIntTree(t *testing.T) {
 		},
 		{
 			Name:             "Valid Convert 2",
-			SourceTreeValues: "[1,2,3,4,5,6,7]",
+			SourceTreeValues: "[1,2,2,null,3]",
 			IsValid:          true,
 		},
 		{
 			Name:             "Valid Convert 3",
+			SourceTreeValues: "[1,2,3,4,5,6,7]",
+			IsValid:          true,
+		},
+		{
+			Name:             "Valid Convert 4",
 			SourceTreeValues: "[1,2,3,null,4,null,5,6,7,8,9,10]",
 			IsValid:          true,
 		},

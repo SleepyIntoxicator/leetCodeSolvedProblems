@@ -84,39 +84,45 @@ func StringToIntTree(source string) (*TreeNode, error) {
 
 	root := treeNodes[0]
 
-	prevLevelStartIndex, prevLevelEndIndex := 0, 1
-	currIndex := prevLevelEndIndex
+	parentLevelStartIndex, parentLevelEndIndex := 0, 1
+	currIndex := parentLevelEndIndex
 
 	for currIndex < len(treeNodes) {
 		currLevelStart := currIndex
 		countOfNullElems := 0
 
 		// Filling in the current level of the tree
-		for _, prev := range treeNodes[prevLevelStartIndex:prevLevelEndIndex] {
-			if prev == nil {
+		for _, parent := range treeNodes[parentLevelStartIndex:parentLevelEndIndex] {
+			if parent == nil {
 				countOfNullElems++
 				continue
 			}
 
-			prev.Left = treeNodes[currIndex]
+			parent.Left = treeNodes[currIndex]
 
+			// If there are no more elements
 			if currIndex+1 >= len(treeNodes) {
 				currIndex += 1
 				break
 			}
-			prev.Right = treeNodes[currIndex+1]
+			parent.Right = treeNodes[currIndex+1]
 
 			currIndex += 2
+
+			// If there are no more elements
+			if currIndex >= len(treeNodes) {
+				break
+			}
 		}
 
 		// If all level elements are nil, an error is returned
-		if prevLevelEndIndex-prevLevelStartIndex == countOfNullElems {
+		if parentLevelEndIndex-parentLevelStartIndex == countOfNullElems {
 			return nil, errTornSourceData
 		}
 
 		// Preparing for the next level
-		prevLevelStartIndex = currLevelStart
-		prevLevelEndIndex = currIndex
+		parentLevelStartIndex = currLevelStart
+		parentLevelEndIndex = currIndex
 	}
 
 	return root, nil
