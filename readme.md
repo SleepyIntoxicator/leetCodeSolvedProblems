@@ -36,6 +36,7 @@
 | [v]    | 700    | [Search in a Binary Search Tree](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.go)         | Easy   |
 | [r]    | 701    | [Insert into a Binary Search Tree](./solutions/701.%20Insert%20into%20a%20Binary%20Search%20Tree.go)     | Medium |
 | [v]    | 98     | [Validate Binary Search Tree](./solutions/98.%20Validate%20Binary%20Search%20Tree.go)                    | Medium |
+| [r]    | 653    | [Two Sum IV - Input is a BST](./solutions/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.go)           | Easy   |
 
 Status:
 - 
