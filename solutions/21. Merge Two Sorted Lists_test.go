@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"leetCodeSolvedProblems/utils"
+	"github.com/Slintox/leetCodeSolvedProblems/utils"
 )
 
 func TestMergeTwoLists(t *testing.T) {

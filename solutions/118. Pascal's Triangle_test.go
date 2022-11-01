@@ -3,7 +3,7 @@ package solutions
 import (
 	"testing"
 
-	"leetCodeSolvedProblems/utils"
+	"github.com/Slintox/leetCodeSolvedProblems/utils"
 )
 
 func TestPascalsTriangle(t *testing.T) {

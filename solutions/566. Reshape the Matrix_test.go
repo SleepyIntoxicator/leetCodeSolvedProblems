@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"leetCodeSolvedProblems/utils"
+	"github.com/Slintox/leetCodeSolvedProblems/utils"
 )
 
 func TestMatrixReshape(t *testing.T) {
