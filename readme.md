@@ -42,6 +42,7 @@
 |        |        | End of course 'Data Structure'                                                                                                       |        |
 |        |        |                                                                                                                                      |        |
 | [v]    | 3      | [Longest Substring Without Repeating Characters](./solutions/3.%20Longest%20Substring%20Without%20Repeating%20Characters.go)         | Medium |
+| [v]    | 26     | [Remove Duplicates from Sorted Array](./solutions/26.%20Remove%20Duplicates%20from%20Sorted%20Array.go)                              | Easy   |
 
 Status:
 - 
