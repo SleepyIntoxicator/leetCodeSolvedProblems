@@ -65,6 +65,8 @@ Status:
 | [v]    | 182    | [Duplicate Emails](./solutions_sql/182.%20Duplicate%20Emails.sql)                                                             | Easy   |
 | [v]    | 183    | [Customers Who Never Order](./solutions_sql/183.%20Customers%20Who%20Never%20Order.sql)                                       | Easy   |
 | [v]    | 196    | [Delete Duplicate Emails](./solutions_sql/196.%20Delete%20Duplicate%20Emails.sql)                                             | Easy   |
+| [v]    | 197    | [Rising Temperature](./solutions_sql/197.%20Rising%20Temperature.sql)                                                         | Easy   |
+| [v]    | 607    | [Sales Person](./solutions_sql/607.%20Sales%20Person.sql)                                                                     | Easy   |
 | [c]    | 262    | [Trips and Users](./solutions_sql/262.%20Trips%20and%20Users.sql)                                                             | Hard   |
 
 Status:
